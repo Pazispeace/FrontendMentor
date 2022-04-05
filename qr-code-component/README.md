@@ -13,8 +13,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution to the QR code component challenge on Frontend Mentor]()
+- Live Site URL: [solution to the QR code component challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/qr-code-component)
 
 ### Built with
 
