@@ -13,7 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [solution to the QR code component challenge on Frontend Mentor]()
+- Solution URL: [solution to the QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-qr-card-using-flexbox-rJdoOzc75)
 - Live Site URL: [solution to the QR code component challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/qr-code-component)
 
 ### Built with

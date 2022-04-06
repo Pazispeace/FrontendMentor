@@ -1,0 +1,169 @@
+/* ********** Custom Properties ********** */
+:root {
+  --Soft-blue: #8bacda;
+  --Cyan: #00fff7;
+  --Very-dark-blue-main-BG: #0d192b;
+  --Very-dark-blue-card-BG: #14253d;
+  --Very-dark-blue-line: #2f415b;
+  --White: hsl(0, 0%, 100%);
+  --font: "Outfit", sans-serif;
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+  --text-size: 1.125rem;
+  --text-color: #222;
+  --link-color: #3333b1;
+  --max-card-width: 21.8rem;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Site Styles ********** */
+
+.container {
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--Very-dark-blue-main-BG);
+}
+
+.cards-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: var(--max-card-width);
+  padding: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
+  background-color: var(--Very-dark-blue-card-BG);
+  box-shadow: 0 0rem 4rem -2rem var(--Very-dark-blue-card-BG);
+}
+
+.card-image img {
+  margin-bottom: 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.card-content {
+  color: var(--Soft-blue);
+}
+
+.card-content h3 {
+  color: var(--White);
+  font-size: 1.5rem;
+  font-weight: var(--bold);
+}
+
+.card-content p {
+  font-size: var(--text-size);
+
+  font-weight: var(--regular);
+}
+
+.card-content .details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.card-content .more-details {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.more-details:first-child strong {
+  color: var(--Cyan);
+}
+
+.card-content .author {
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  column-gap: 1rem;
+  border-top: thin solid var(--Very-dark-blue-line);
+}
+
+.card-content .author img {
+  border: thin solid var(--White);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.card-content .author strong {
+  font-weight: var(--light);
+  color: var(--White);
+}

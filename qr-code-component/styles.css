@@ -99,6 +99,7 @@ p {
   padding: 1rem;
   border-radius: 1rem;
   background-color: var(--white);
+  box-shadow: 0 0rem 4rem -2rem var(--grayish-blue);
 }
 
 .card-image img {
