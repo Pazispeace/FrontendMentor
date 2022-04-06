@@ -2,6 +2,7 @@
 :root {
   --Soft-blue: #8bacda;
   --Cyan: #00fff7;
+  --Cyan-alpha-color: #00fff780;
   --Very-dark-blue-main-BG: #0d192b;
   --Very-dark-blue-card-BG: #14253d;
   --Very-dark-blue-line: #2f415b;
@@ -110,9 +111,43 @@ p {
   box-shadow: 0 0rem 4rem -2rem var(--Very-dark-blue-card-BG);
 }
 
+.card a {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.card-image a {
+  position: relative;
+  display: block;
+}
+
 .card-image img {
   margin-bottom: 1.6rem;
   border-radius: 0.5rem;
+}
+
+.card-image .card-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--Cyan-alpha-color);
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.card-image .card-info > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-image .card-info:hover {
+  opacity: 1;
 }
 
 .card-content {
@@ -120,9 +155,15 @@ p {
 }
 
 .card-content h3 {
+  display: inline-block;
   color: var(--White);
   font-size: 1.5rem;
   font-weight: var(--bold);
+  transition: color 200ms ease-in-out;
+}
+
+.card-content h3:hover {
+  color: var(--Cyan);
 }
 
 .card-content p {
@@ -164,6 +205,11 @@ p {
 }
 
 .card-content .author strong {
-  font-weight: var(--light);
+  font-weight: var(--regular);
   color: var(--White);
+  transition: color 200ms ease-in-out;
+}
+
+.card-content .author strong:hover {
+  color: var(--Cyan);
 }
