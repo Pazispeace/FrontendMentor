@@ -13,3 +13,9 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/nft-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/nft-preview-card-component)
+
+## Author
+
+- Github - [Pazispeace](https://github.com/Pazispeace)
+- Frontend Mentor - [@pazispeace](https://www.frontendmentor.io/profile/Pazispeace)
+- Twitter - [@Pazispeace](https://www.twitter.com/pazispeace)
