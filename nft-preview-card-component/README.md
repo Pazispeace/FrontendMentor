@@ -13,7 +13,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Solution to NFT preview card component challenge on Frontend Mentor]()
+- Solution URL: [Solution to NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/resonsive-nft-preview-card-component-with-flexbox-H1ewl2R9m9)
 - Live Site URL: [Solution to NFT preview card component challenge on Frontend Mentor](https://Pazispeace.github.io/FrontendMentor-Challenges/nft-preview-card-component)
 
 ### Built with
