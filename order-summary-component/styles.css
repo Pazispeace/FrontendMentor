@@ -1,0 +1,222 @@
+/* ********** Custom Properties ********** */
+:root {
+  --Pale-blue: #e0e8ff;
+  --Bright-blue: #3829e0;
+  --Bright-alpha-blue: #3829e0a3;
+  --Very-pale-blue: #f5f7ff;
+  --Desaturated-blue: #7280a7;
+  --Dark-blue: #1f2f56;
+  --White: #ffffff;
+  --font: "Red Hat Display", sans-serif;
+  --medium: 500;
+  --bold: 700;
+  --black: 900;
+  --text-size: 1rem;
+  --text-color: #222;
+  --link-color: #3333b1;
+  --max-card-width: 23.4375rem;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Site Styles ********** */
+
+.container {
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--Pale-blue);
+}
+
+.cards-container {
+  color: var(--Desaturated-blue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: var(--max-card-width);
+  border-radius: 1rem;
+  background-color: var(--White);
+  box-shadow: 0 0rem 4rem -2rem var(--Desaturated-blue);
+}
+
+.card-image img {
+  margin-bottom: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-content {
+  text-align: center;
+  color: var(--Soft-blue);
+}
+
+.card-content h3 {
+  display: inline-block;
+  color: var(--Dark-blue);
+  font-size: 1.5rem;
+  font-weight: var(--black);
+}
+
+.card-content p {
+  font-size: var(--text-size);
+  font-weight: var(--medium);
+}
+
+.summary {
+  padding: 0 2.4rem;
+  margin-bottom: 1.7rem;
+}
+
+.card-content .details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.7rem;
+}
+
+.card-content .more-details {
+  display: grid;
+  grid-template-columns: 3rem 1fr 1fr;
+  place-items: center;
+  column-gap: 1.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.3rem 1rem;
+  border-radius: 0.8rem;
+  background-color: var(--Very-pale-blue);
+}
+
+.card-content .more-details a {
+  text-decoration: none;
+  font-weight: var(--bold);
+  color: var(--link-color);
+  justify-self: end;
+}
+
+.more-details a:hover {
+  color: var(--Bright-alpha-blue);
+}
+
+.more-details .plan {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.1rem;
+}
+
+.plan strong:first-child {
+  font-weight: var(--black);
+  color: var(--Dark-blue);
+}
+
+.buttons {
+  margin-bottom: 2.2rem;
+}
+
+.buttons button {
+  cursor: pointer;
+  font-size: var(--text-size);
+  font-family: var(--font);
+  transition: all 0.5s ease-out;
+}
+.button-proceed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: var(--Bright-blue);
+  color: var(--White);
+  font-weight: var(--black);
+  padding: 1rem;
+  margin-bottom: 1.3rem;
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: 0rem 1.3rem 1rem 0rem var(--Pale-blue);
+}
+
+.button-proceed:hover {
+  background-color: var(--Bright-alpha-blue);
+}
+
+.button-cancel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--Desaturated-blue);
+  font-weight: var(--black);
+  border: none;
+  background-color: transparent;
+}
+
+.button-cancel:hover {
+  color: var(--Dark-blue);
+}
