@@ -4,8 +4,6 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
 
 ## Challenges and solutions
 
-## Table of contents
-
 - [QR code component challenge](https://www.frontendmentor.io/solutions/responsive-qr-card-using-flexbox-rJdoOzc75)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/qr-code-component)
