@@ -14,7 +14,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/nft-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/nft-preview-card-component)
 
-- [Order summary card challenge]()
+- [Order summary card challenge](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-and-grid-css-ByS92Qjm5)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/order-summary-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/order-summary-component)
