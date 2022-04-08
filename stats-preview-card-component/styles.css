@@ -1,0 +1,223 @@
+/* ********** Custom Properties ********** */
+:root {
+  /* primary */
+  --Primary-color: #090b1a;
+  --Primary-second-color: #1b1938;
+  --Primary-third-color: #aa5cdb;
+  /* Neutral */
+  --White-main-h: #ffffff;
+  --White-alpha-color-main-p: #ffffffbf;
+  --White--slightly-alpha-color-stat-h: #ffffff99;
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Lexend Deca", sans-serif;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+  --black: 900;
+  --text-size: 0.9375rem;
+  --text-color: #222;
+  --link-color: #3333b1;
+  --max-card-width: 23.4375rem;
+  --max-card-width-lg: 65rem;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Site Styles ********** */
+
+.section {
+  min-height: 100vh;
+  background-color: var(--Primary-color);
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--White-alpha-color-main-p);
+}
+
+.card {
+  max-width: var(--max-card-width);
+  border-radius: 0.5rem;
+  background-color: var(--Primary-second-color);
+  box-shadow: 0 0rem 4rem -2rem var(--Primary-second-color);
+}
+
+.card-image img {
+  -webkit-filter: invert(15%) sepia(100%) opacity(0.6) saturate(250%)
+    hue-rotate(245deg) brightness(86%) contrast(109%);
+  filter: invert(15%) sepia(100%) opacity(0.6) saturate(250%) hue-rotate(245deg)
+    brightness(86%) contrast(109%);
+  margin-bottom: 2.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card-content {
+  text-align: center;
+  padding: 0 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.card-content h3 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: var(--black);
+  color: var(--White-main-h);
+  margin-bottom: 0.5rem;
+}
+
+.card-content h3 > strong {
+  color: var(--Primary-third-color);
+}
+
+.card-content p {
+  margin-bottom: 2rem;
+  font-size: var(--text-size);
+  font-weight: var(--regular);
+}
+
+.details .more-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1.5rem;
+}
+
+.more-details .stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-details .stats strong {
+  margin-bottom: 0.3rem;
+  font-weight: var(--bold);
+  font-size: 1.5rem;
+  color: var(--White-main-h);
+}
+
+.more-details .stats p {
+  margin: 0;
+  letter-spacing: 0.0625rem;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  font-size: var(--text-size);
+  color: var(--White--slightly-alpha-color-stat-h);
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    min-height: 100vh;
+  }
+
+  .card {
+    max-width: var(--max-card-width-lg);
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 48% 48%;
+  }
+
+  .card-image {
+    order: 1;
+  }
+
+  .card-image img {
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    border-radius: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .card-content {
+    text-align: left;
+    padding: 4rem;
+  }
+
+  .card-content p {
+    margin-bottom: 4rem;
+  }
+
+  .details .more-details {
+    flex-direction: row;
+    column-gap: 3rem;
+    justify-content: flex-start;
+  }
+
+  .more-details .stats p {
+    font-size: 0.9rem;
+    letter-spacing: 0;
+  }
+}

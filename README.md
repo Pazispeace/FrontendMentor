@@ -14,10 +14,15 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/nft-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/nft-preview-card-component)
 
-- [Order summary card challenge on Frontend Mentor]()
+- [Order summary card challenge]()
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/order-summary-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/order-summary-component)
+
+- [Stats preview card component challenge]()
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/stats-preview-card-component)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/stats-preview-card-component)
 
 ## Author
 
