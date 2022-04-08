@@ -19,8 +19,6 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/order-summary-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/order-summary-component)
 
-<!--  -->
-
 - [Stats preview card component challenge](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-using-flexbox-and-grid-css-SyeHE5amq)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/stats-preview-card-component)
