@@ -14,7 +14,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Solution to Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-using-flexbox-and-grid-css-SyeHE5amq)
-- Live Site URL: [Solution to Stats preview card component challenge on Frontend Mentor](https://Pazispeace.github.io/FrontendMentor-Challenges/stats-preview-card-component)
+- Live Site URL: [Solution to Stats preview card component challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/stats-preview-card-component)
 
 ### Built with
 

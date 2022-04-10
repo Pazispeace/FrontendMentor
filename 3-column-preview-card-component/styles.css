@@ -1,0 +1,213 @@
+/* ********** Custom Properties ********** */
+:root {
+  /* primary */
+  --Primary-color: #e38826;
+  --Primary-second-color: #006970;
+  --Primary-third-color: #004241;
+  /* Neutral */
+  --white-alpha-p: #ffffffbf;
+  --light-gray-bg-h-bttn: #f2f2f2;
+  --font-primary: "Big Shoulders Display", cursive;
+  --font-secondary: "Lexend Deca", sans-serif;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+  --black: 900;
+  --text-size: 0.9375rem;
+  --text-color: #222;
+  --link-color: #3333b1;
+  --max-card-width: 23.4375rem;
+  --max-card-width-lg: 65rem;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Site Styles ********** */
+
+.section {
+  background-color: var(--light-gray-bg-h-bttn);
+}
+
+.container {
+  min-height: 100vh;
+
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--White-alpha-color-main-p);
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.card-1 {
+  background-color: var(--Primary-color);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.card-2 {
+  background-color: var(--Primary-second-color);
+}
+.card-3 {
+  background-color: var(--Primary-third-color);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.card-content {
+  font-size: var(--text-size);
+  color: var(--white-alpha-p);
+}
+
+.card-content h3 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: var(--font-primary);
+  font-weight: var(--bold);
+  color: var(--light-gray-bg-h-bttn);
+}
+
+.card-image {
+  margin-bottom: 2rem;
+}
+
+.card a {
+  width: 10rem;
+
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border: medium solid var(--light-gray-bg-h-bttn);
+  border-radius: 2rem;
+  background-color: var(--light-gray-bg-h-bttn);
+  transition: all 0.5s ease;
+}
+
+.card-1 a {
+  color: var(--Primary-color);
+}
+
+.card-2 a {
+  color: var(--Primary-second-color);
+}
+
+.card-3 a {
+  color: var(--Primary-third-color);
+}
+
+.card a:hover {
+  opacity: 1;
+  background-color: transparent;
+  color: var(--light-gray-bg-h-bttn);
+}
+
+@media screen and (min-width: 30em) {
+  .card-content {
+    margin-bottom: 5rem;
+  }
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-1 {
+    border-radius: 0.5rem 0 0 0;
+  }
+  .card-2 {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  .card-3 {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card-1 {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  .card-2 {
+    border-radius: 0;
+  }
+  .card-3 {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+}

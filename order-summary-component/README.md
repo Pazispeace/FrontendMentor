@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Solution to NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-and-grid-css-ByS92Qjm5)
-- Live Site URL: [Solution to NFT preview card component challenge on Frontend Mentor](https://Pazispeace.github.io/FrontendMentor-Challenges/order-summary-component)
+- Live Site URL: [Solution to NFT preview card component challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/order-summary-component)
 
 ### Built with
 
