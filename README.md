@@ -24,7 +24,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/stats-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/stats-preview-card-component)
 
-  - [3-column preview card component challenge](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-using-css-grid-and-flexbox-Hy6Znhk45)
+- [3-column preview card component challenge](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-using-css-grid-and-flexbox-Hy6Znhk45)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/3-column-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/3-column-preview-card-component)
