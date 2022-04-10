@@ -13,7 +13,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Solution to 3-column preview card component challenge on Frontend Mentor]()
+- Solution URL: [Solution to 3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-using-css-grid-and-flexbox-Hy6Znhk45)
 - Live Site URL: [Solution to 3-column preview card component challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/3-column-preview-card-component)
 
 ### Built with
