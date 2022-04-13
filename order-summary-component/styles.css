@@ -89,10 +89,23 @@ p {
 /* ********** Site Styles ********** */
 
 .container {
+  position: relative;
   min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--Pale-blue);
+  z-index: -2;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("images/pattern-background-mobile.svg") no-repeat;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 .cards-container {
@@ -219,4 +232,18 @@ p {
 
 .button-cancel:hover {
   color: var(--Dark-blue);
+}
+
+@media screen and (min-width: 20.5em) {
+  .container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("images/pattern-background-desktop.svg") no-repeat;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transform: translate(0%, -20%);
+  }
 }
