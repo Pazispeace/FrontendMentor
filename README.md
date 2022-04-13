@@ -29,6 +29,11 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/3-column-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/3-column-preview-card-component)
 
+- [Profile card component challenge]()
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/3-column-preview-card-component)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/3-column-preview-card-component)
+
 ## Author
 
 - Github - [Pazispeace](https://github.com/Pazispeace)
