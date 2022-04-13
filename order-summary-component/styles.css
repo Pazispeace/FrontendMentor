@@ -194,7 +194,7 @@ p {
 .buttons {
   margin-bottom: 2.2rem;
 }
-
+/*  */
 .buttons button {
   cursor: pointer;
   font-size: var(--text-size);
