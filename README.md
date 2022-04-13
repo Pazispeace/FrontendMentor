@@ -29,10 +29,10 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/3-column-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/3-column-preview-card-component)
 
-- [Profile card component challenge]()
+- [Profile card component challenge](https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-flexbox-grid-and-mobile-first-r1V-c4VN9)
 
-  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/3-column-preview-card-component)
-  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/3-column-preview-card-component)
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/profile-card-component)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/profile-card-component)
 
 ## Author
 
