@@ -234,6 +234,7 @@ p {
     align-items: baseline;
     align-content: space-between;
     column-gap: 10%;
+    row-gap: 2rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -258,6 +259,7 @@ p {
 
   .content h2 {
     font-size: 3.5rem;
+    margin-bottom: 2rem;
   }
 
   .rates {
