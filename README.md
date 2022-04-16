@@ -34,7 +34,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/profile-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/profile-card-component)
 
-- [Social proof section challenge]()
+- [Social proof section challenge](https://www.frontendmentor.io/solutions/social-proof-section-rkkzHrON5)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/social-proof-section-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/social-proof-section-master)

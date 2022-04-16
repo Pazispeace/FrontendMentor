@@ -13,7 +13,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Solution to Social proof section challenge on Frontend Mentor]()
+- Solution URL: [Solution to Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-rkkzHrON5)
 - Live Site URL: [Solution to Social proof section challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/social-proof-section-master)
 
 ### Built with
