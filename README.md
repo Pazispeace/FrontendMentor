@@ -39,7 +39,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/social-proof-section-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/social-proof-section-master)
 
-- [four card feature section master challenge]()
+- [four card feature section master challenge](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-Sy7Omg1B9)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/four-card-feature-section-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/four-card-feature-section-master)
