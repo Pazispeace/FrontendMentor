@@ -13,7 +13,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Solution to Single price grid component challenge on Frontend Mentor]()
+- Solution URL: [Solution to Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-single-price-grid-component-HJXyp2bH5)
 - Live Site URL: [Solution to Single price grid component challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/single-price-grid-component-master)
 
 ### Built with

@@ -44,6 +44,11 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/four-card-feature-section-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/four-card-feature-section-master)
 
+- [Single price grid component challenge](https://www.frontendmentor.io/solutions/responsive-single-price-grid-component-HJXyp2bH5)
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/single-price-grid-component-master)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/single-price-grid-component-master)
+
 ## Author
 
 - Github - [Pazispeace](https://github.com/Pazispeace)
