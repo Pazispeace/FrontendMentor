@@ -1,0 +1,265 @@
+/* ********** Custom Properties ********** */
+:root {
+  /* primary */
+  --Primary-color: #2ab2af;
+  --Primary-alpha-color: #2ab2b0ce;
+  --Primary-secondary-color: #c0df34;
+
+  /* Neutral */
+  --White: #ffffff;
+  --light-gray: #e5eff5;
+  --light-alpha-gray: #e5eff598;
+  --grayish-blue: #98a6bd;
+  --font-primary: "Karla", sans-serif;
+  --regular: 400;
+  --bold: 700;
+  --text-size: 1rem;
+  --text-color: #e5eff5;
+  --link-color: #3333b1;
+  --max-mobile-width: 23rem;
+  --max-lg-width: 49%;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Components ********** */
+
+/* ********** Utilities ********** */
+
+.box-shadow-1 {
+  box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow-2 {
+  box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-mobile-width);
+}
+
+.none {
+  display: none;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (min-width: 64em) {
+  .container-lg {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-lg-width);
+  }
+
+  .full-lg-screen {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-left {
+    text-align: left;
+  }
+
+  .text-lg-right {
+    text-align: right;
+  }
+}
+
+/* ********** Site Styles ********** */
+
+.container {
+  border-radius: 0.5rem;
+}
+
+.container > div {
+  padding: 2rem;
+}
+
+.container > div:last-child {
+  padding-bottom: 1rem;
+}
+
+.plan-introduction {
+  border-radius: 0.5rem 0.5rem 0 0;
+  color: var(--grayish-blue);
+  background-color: var(--White);
+}
+
+.plan-introduction h3 {
+  margin-bottom: 1.5rem;
+  color: var(--Primary-color);
+}
+
+.plan-introduction strong {
+  margin-bottom: 2rem;
+  color: var(--Primary-secondary-color);
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-gray);
+}
+
+.subscription {
+  background-color: var(--Primary-color);
+}
+
+.subscription h3 {
+  margin-bottom: 1rem;
+}
+
+.subscription h3 + p {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin: 0;
+  color: var(--light-alpha-gray);
+}
+.subscription p > strong {
+  font-size: 2rem;
+  color: var(--light-gray);
+}
+
+.subscription > p + p {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.subscription a {
+  display: inline-block;
+  min-width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: var(--bold);
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: var(--Primary-secondary-color);
+}
+
+.why-us {
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-color: var(--Primary-alpha-color);
+}
+
+.why-us ul {
+  padding: 0;
+  list-style: none;
+}
+
+.why-us li {
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 64em) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      ". . "
+      "subscription why-us";
+  }
+
+  .plan-introduction {
+    grid-column: span 2;
+  }
+
+  .subscription {
+    border-radius: 0 0 0 0.5rem;
+    grid-area: subscription;
+  }
+
+  .why-us {
+    border-radius: 0 0 0.5rem 0;
+    grid-area: why-us;
+  }
+}
