@@ -13,7 +13,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Solution to Huddle landing page with single introductory section challenge on Frontend Mentor]()
+- Solution URL: [Solution to Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-single-introductory-section-B1TvdV7Hq)
 - Live Site URL: [Solution toHuddle landing page with single introductory section challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-single-introductory-section-master)
 
 ### Built with
