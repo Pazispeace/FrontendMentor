@@ -49,7 +49,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/single-price-grid-component-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/single-price-grid-component-master)
 
-- [Huddle landing page with single introductory section challenge](git add )
+- [Huddle landing page with single introductory section challenge]()
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-single-introductory-section-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/huddle-landing-page-with-single-introductory-section-master)
