@@ -1,0 +1,301 @@
+/* ********** Custom Properties ********** */
+:root {
+  /* primary */
+  --Primary-color: #7541c8;
+  --Primary-secondary-color: #48556a;
+  --Primary-secondary-alpha-5-color: #48556a80;
+  --Primary-secondary-alpha-7-color: #48556ab3;
+  --Primary-tertiary-color: #19212e;
+
+  --background-color: #ecf2f8;
+
+  /* Neutral */
+  --White: #ffffff;
+  --White-alpha-5-color: #ffffff80;
+  --White-alpha-7-color: #ffffffb3;
+  --Light-gray: #cfcfcf;
+  --Light-gray-alpha-5: #cfcfcf80;
+  --Light-gray-alpha-7: #cfcfcfb3;
+  --Light-grayish-blue: #ecf2f8;
+  --Light-grayish-blue-alpha-5: #ecf2f880;
+  --Light-grayish-blue-alpha-7: #ecf2f8b3;
+
+  --font-primary: "Barlow Semi Condensed", sans-serif;
+
+  --medium: 500;
+  --semi-bold: 600;
+  --text-size: 0.8125rem;
+  --text-color: #081720;
+  --link-color: #3333b1;
+  --max-mobile-width: 25rem;
+  --max-lg-width: 85%;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Components ********** */
+
+/* ********** Utilities ********** */
+
+.box-shadow-1 {
+  box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow-2 {
+  box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  max-width: var(--max-mobile-width);
+}
+
+.none {
+  display: none;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (min-width: 64em) {
+  .container-lg {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-lg-width);
+  }
+
+  .full-lg-screen {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-left {
+    text-align: left;
+  }
+
+  .text-lg-right {
+    text-align: right;
+  }
+}
+
+/* ********** Site Styles ********** */
+.bg-color {
+  background-color: var(--background-color);
+}
+
+.client-data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.client-data img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 0.15rem solid var(--Light-gray-alpha-7);
+}
+
+.client-data span {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-data strong {
+  font-weight: var(--medium);
+}
+
+.card {
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.card p strong {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: var(--semi-bold);
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.card-1 {
+  background: url("data:image/svg+xml,%3Csvg width='104' height='102' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M104 102V59.727H84.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C95.01 25.86 98.909 22.257 104 19.375V0c-9.758 4.27-17.712 9.874-23.864 16.813-6.151 6.939-10.712 14.545-13.681 22.818C63.485 47.904 62 59.941 62 75.74V102h42zm-62 0V59.727H22.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C33.01 25.86 36.909 22.257 42 19.375V0c-9.652 4.27-17.58 9.874-23.784 16.813C12.01 23.752 7.424 31.358 4.455 39.631 1.485 47.904 0 59.941 0 75.74V102h42z' fill='%23A775F1' fill-rule='nonzero'/%3E%3C/svg%3E")
+    90% 0% no-repeat;
+  background-color: var(--Primary-color);
+}
+
+.card-2 {
+  background-color: var(--Primary-secondary-color);
+}
+.card-3,
+.card-5 {
+  background-color: var(--White);
+}
+
+.card-4 {
+  background-color: var(--Primary-tertiary-color);
+}
+
+.card:not(:nth-child(3)):not(:nth-child(5)) strong {
+  color: var(--White);
+}
+
+.card:not(:nth-child(3)):not(:nth-child(5)) small {
+  color: var(--White-alpha-5-color);
+}
+
+.card:not(:nth-child(3)):not(:nth-child(5)) > p {
+  color: var(--White-alpha-7-color);
+}
+
+/* first child and other odd childs won´t take these styles because its specifity is higher */
+
+.card:nth-child(2n + 1) strong {
+  color: var(--Primary-secondary-color);
+}
+.card:nth-child(2n + 1) small {
+  color: var(--Primary-secondary-alpha-5-color);
+}
+
+.card:nth-child(2n + 1) > p {
+  color: var(--Primary-secondary-alpha-7-color);
+}
+
+.section {
+  font-size: var(--text-size);
+}
+
+@media screen and (min-width: 64em) {
+  .card {
+    margin-bottom: 0;
+  }
+
+  .card-1,
+  .card-2,
+  .card p strong {
+    margin-bottom: 1.5rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.5rem;
+    grid-template-areas:
+      "card-1 card-1 card-2 card-5"
+      "card-1 card-1 card-2 card-5"
+      "card-3 card-4 card-4 card-5"
+      "card-3 card-4 card-4 card-5";
+  }
+
+  .card-1 {
+    grid-area: card-1;
+  }
+
+  .card-2 {
+    grid-area: card-2;
+  }
+  .card-3 {
+    grid-area: card-3;
+  }
+
+  .card-4 {
+    grid-area: card-4;
+  }
+  .card-5 {
+    grid-area: card-5;
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+  }
+}
