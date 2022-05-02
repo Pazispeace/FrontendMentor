@@ -13,7 +13,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Solution Testimonials grid section challenge on Frontend Mentor]()
+- Solution URL: [Solution Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-testimonials-grid-section-using-grid-and-flexbox-rkqIKYpB9)
 - Live Site URL: [Solution to Testimonials grid section challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/testimonials-grid-section-main)
 
 ### Built with

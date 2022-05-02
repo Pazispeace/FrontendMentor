@@ -54,7 +54,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-single-introductory-section-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/huddle-landing-page-with-single-introductory-section-master)
 
-- [Testimonials grid section challenge]()
+- [Testimonials grid section challenge](https://www.frontendmentor.io/solutions/responsive-testimonials-grid-section-using-grid-and-flexbox-rkqIKYpB9)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/testimonials-grid-section-main)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/testimonials-grid-section-main)
