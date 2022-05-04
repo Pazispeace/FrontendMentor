@@ -194,6 +194,7 @@ article.container {
   background-color: var(--Dark-blue);
 }
 
+.percentage-info > div,
 .percentage-info > span {
   display: flex;
   justify-content: space-between;
