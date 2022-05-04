@@ -1,0 +1,359 @@
+/* ********** Custom Properties ********** */
+:root {
+  /* primary */
+  --Primary-gradient: linear-gradient(to right, #ffa399, #ff4d97);
+
+  --background-color: #0c122c;
+
+  /* Neutral */
+  --White: #ffffff;
+  --Pale-blue: #dddbff;
+  --Grayish-blue: #848794;
+  --Dark-blue: #1d2c67;
+  --Very-dark-blue: #0c122c;
+
+  --font-primary: "Raleway", sans-serif;
+
+  --medium: 500;
+  --semi-bold: 600;
+  --text-size: 0.875rem;
+  --text-color: #ffffff;
+  --link-color: #3333b1;
+  --max-mobile-width: 25rem;
+  --max-lg-width: 80%;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Components ********** */
+
+/* ********** Utilities ********** */
+
+.box-shadow-1 {
+  box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow-2 {
+  box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  max-width: var(--max-mobile-width);
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+.none {
+  display: none;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (min-width: 64em) {
+  .container-lg {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-lg-width);
+  }
+
+  .full-lg-screen {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-left {
+    text-align: left;
+  }
+
+  .text-lg-right {
+    text-align: right;
+  }
+}
+
+/* ********** Site Styles ********** */
+
+article.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.bg-color {
+  background: url(images/bg-mobile.png) no-repeat var(--background-color);
+  background-size: cover;
+}
+
+.container {
+  font-size: var(--text-size);
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+}
+
+.input:focus + label {
+  outline: thin solid var(--White);
+}
+
+.percentage-info {
+  position: relative;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--Dark-blue);
+}
+
+.percentage-info > span {
+  display: flex;
+  justify-content: space-between;
+  font-weight: var(--semi-bold);
+}
+
+progress {
+  height: 1.2rem;
+  width: 100%;
+  border-radius: 1rem;
+  background: var(--Very-dark-blue); /* progress bar bg color for firefox */
+  border: none; /* Needed for Firefox */
+  -webkit-appearance: none; /* Needed for WebKit/Blink */
+  padding: 0.2rem;
+}
+progress::-webkit-progress-bar {
+  background-color: var(--Very-dark-blue);
+  border-radius: 1rem;
+}
+progress::-webkit-progress-value {
+  background-image: var(--Primary-gradient);
+  border-radius: 1rem;
+}
+
+progress::-moz-progress-bar {
+  background-image: var(--Primary-gradient);
+  border-radius: 1rem;
+}
+
+.progress-circle {
+  position: relative;
+  align-items: center;
+}
+
+.progress-circle::after {
+  position: absolute;
+  content: "";
+  min-width: 10px;
+  min-height: 56%;
+  right: 20.2%;
+  border-radius: 50%;
+  cursor: not-allowed;
+  background-color: var(--White);
+}
+
+.percentage-popup {
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  padding: 0.2rem;
+  width: 55%;
+  font-weight: var(--semi-bold);
+  border-radius: 0.5rem;
+  color: var(--Grayish-blue);
+  background-color: var(--White);
+  transform: translate(50%, -50%);
+}
+
+.percentage-popup > p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.percentage-popup strong {
+  font-size: 2.5rem;
+  color: var(--Very-dark-blue);
+}
+
+.user-actions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  margin-bottom: 1rem;
+  row-gap: 2rem;
+  border-radius: 0.5rem 6rem 0.5rem 0.5rem;
+  background-color: var(--Dark-blue);
+}
+
+.user-actions-container > img {
+  width: 8rem;
+}
+
+.user-actions {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.user-actions label,
+.user-actions a {
+  display: grid;
+  place-content: center;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--Very-dark-blue);
+  transition: all 0.5s ease-out;
+}
+
+.user-actions label:hover {
+  opacity: 0.75;
+}
+
+.user-actions a:focus {
+  transition: none;
+  outline: thin solid var(--White);
+}
+
+@media screen and (min-width: 64em) {
+  article.container {
+    display: grid;
+    align-items: end;
+    align-content: center;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+  }
+
+  .bg-color {
+    background: url(images/bg-desktop.png) no-repeat var(--background-color);
+    background-position: bottom;
+    background-size: 100% 53%;
+  }
+
+  .progress-circle::after {
+    right: 19.3%;
+  }
+
+  .percentage-popup {
+    width: 35%;
+    padding: 0;
+    right: 7%;
+    top: 0;
+    transform: translate(0, -65%);
+  }
+
+  .percentage-popup > p {
+    position: relative;
+  }
+
+  .percentage-popup > p::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 1.25rem solid transparent;
+    border-bottom: 1.25rem solid transparent;
+    border-right: 1.5625rem solid var(--White);
+    transform: translateY(50%);
+  }
+
+  .user-actions-container {
+    margin: 0;
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="This is a solution to Fylo data storage component challenge">
+  <link rel="canonical"
+    href="https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-data-storage-component-master">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-data-storage-component-master/images/favicon.png">
+  <link rel="apple-touch-icon"
+    href="https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-data-storage-component-master/images/favicon.png">
+  <meta name="theme-color" content="#0c122c">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:type" content="website">
+  <meta property="og:title" name="twitter:title" content="This is a solution to Fylo data storage component challenge">
+  <meta property="og:description" name="twitter:description"
+    content="This is a solution to Fylo data storage component challenge">
+  <meta property="og:image" name="twitter:image"
+    content="https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-data-storage-component-master/design/desktop-preview.jpg">
+  <meta property="og:url" name="twitter:url"
+    content="https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-data-storage-component-master">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+</head>
+
+<body>
+
+  <main class="bg-color full-screen">
+    <article class="container container-lg section">
+      <div class="user-actions-container">
+        <img src="images/logo.svg" alt="Fylo logo">
+        <div class="user-actions">
+
+          <input class="input" type="file" id="document-upload">
+          <label for="document-upload">
+            <img src="images/icon-document.svg" alt="paper icon representing document upload">
+          </label>
+
+          <input class="input" type="file" webkitdirectory mozdirectory accept="image/*" id="folder-upload">
+          <label for="folder-upload">
+            <img src="images/icon-folder.svg" alt="folder icon representing folder upload">
+          </label>
+
+          <a href="" download="" target="_blank"><img src="images/icon-upload.svg"
+              alt="cloud with down arrow icon representing backup download"></a>
+
+        </div>
+
+
+      </div>
+
+      <div class="percentage-info text-center text-lg-left">
+        <p>You’ve used <b>815</b> GB of your storage</p>
+
+        <span class="progress-circle">
+          <progress class="progress-bar" value="815" max="1000">
+          </progress>
+        </span>
+
+        <span>
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </span>
+        <div class="percentage-popup text-center text-lg-center">
+          <p><strong>185</strong>GB Left</p>
+        </div>
+      </div>
+    </article>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
