@@ -59,7 +59,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/testimonials-grid-section-main)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/testimonials-grid-section-main)
 
-- [Fylo data storage component challenge]()
+- [Fylo data storage component challenge](https://www.frontendmentor.io/solutions/responsive-data-storage-component-SJ3Db9gLc)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-data-storage-component-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/fylo-data-storage-component-master)
