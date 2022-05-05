@@ -244,7 +244,6 @@ progress::-moz-progress-bar {
   position: absolute;
   top: 100%;
   right: 50%;
-  padding: 0.2rem;
   width: 55%;
   font-weight: var(--semi-bold);
   border-radius: 0.5rem;
