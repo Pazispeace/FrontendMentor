@@ -350,7 +350,7 @@ p {
   .functionalities-container {
     flex-direction: row;
     column-gap: 6rem;
-    transform: translateX(-30%);
+    transform: translateX(-30vw);
     align-items: center;
     justify-content: center;
     min-width: 100vw;
