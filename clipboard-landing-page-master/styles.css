@@ -325,7 +325,7 @@ p {
     order: 2;
   }
 
-  .access-anywhere article {
+  .access-anywhere > div {
     display: flex;
     flex-wrap: wrap;
     place-content: center;
@@ -387,7 +387,7 @@ p {
     margin: 0 auto;
   }
 
-  .workflow-tools article {
+  .workflow-tools > div {
     max-width: 100%;
   }
 }
