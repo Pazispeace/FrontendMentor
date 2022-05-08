@@ -284,7 +284,6 @@ h6 {
 
 .header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   min-width: 100%;
 }
