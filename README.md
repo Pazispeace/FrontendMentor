@@ -69,7 +69,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/clipboard-landing-page-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/clipboard-landing-page-master)
 
-- [Huddle landing page with alternating feature blocks challenge](.)
+- [Huddle landing page with alternating feature blocks challenge]()
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-alternating-feature-blocks-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/huddle-landing-page-with-alternating-feature-blocks-master)
