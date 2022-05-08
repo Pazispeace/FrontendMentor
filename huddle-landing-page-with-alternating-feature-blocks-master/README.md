@@ -13,7 +13,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ### Links
 
-- Solution URL: [Solution to Huddle landing page with alternating feature blocks challenge on Frontend Mentor]()
+- Solution URL: [Solution to Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-alternating-feature-blocks-Sy4pO9BU5)
 - Live Site URL: [Solution to Huddle landing page with alternating feature blocks challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-alternating-feature-blocks-master)
 
 ### Built with
