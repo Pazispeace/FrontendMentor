@@ -13,7 +13,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution to Clipboard landing page challenge on Frontend Mentor]()
+- Solution URL: [Solution to Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-clipboard-landing-page-HkNrVLz8q)
 - Live Site URL: [Solution to Clipboard landing page challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/clipboard-landing-page-master)
 
 ### Built with

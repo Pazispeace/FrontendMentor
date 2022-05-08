@@ -64,10 +64,15 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-data-storage-component-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/fylo-data-storage-component-master)
 
-- [Clipboard landing page challenge]()
+- [Clipboard landing page challenge](https://www.frontendmentor.io/solutions/responsive-clipboard-landing-page-HkNrVLz8q)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/clipboard-landing-page-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/clipboard-landing-page-master)
+
+- [Huddle landing page with alternating feature blocks challenge]()
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-alternating-feature-blocks-master)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/huddle-landing-page-with-alternating-feature-blocks-master)
 
 ## Author
 
