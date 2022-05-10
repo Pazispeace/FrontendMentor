@@ -74,6 +74,11 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-alternating-feature-blocks-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/huddle-landing-page-with-alternating-feature-blocks-master)
 
+- [Fylo landing page with two column layout challenge]()
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-landing-page-with-two-column-layout-master)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/fylo-landing-page-with-two-column-layout-master)
+
 ## Author
 
 - Github - [Pazispeace](https://github.com/Pazispeace)
