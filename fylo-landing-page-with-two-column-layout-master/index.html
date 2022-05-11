@@ -37,83 +37,87 @@
 </head>
 
 <body>
+  <header class="header container container-lg">
+    <a href="index.html">
+      <img class="logo" src="images/logo.svg" alt="Fylo website">
+    </a>
+    <nav class="menu" aria-label="primary">
+      <a href="">Features</a>
+      <a href="">Team</a>
+      <a href="">Sign In</a>
+    </nav>
+  </header>
   <main>
-    <header class="header container container-lg">
-      <a href="index.html">
-        <img class="logo" src="images/logo.svg" alt="Fylo website">
-      </a>
-      <nav class="menu">
-        <a href="">Features</a>
-        <a href="">Team</a>
-        <a href="">Sign In</a>
-      </nav>
-    </header>
     <!-- ==HOME== -->
-    <section class="home section container container-lg text-center text-lg-left">
-      <img src="images/illustration-1.svg" alt="">
-      <div class="content">
-        <h1 class="sr-only">Fylo</h1>
-        <h2>All your files in one secure location, accessible anywhere.</h2>
-        <p>Fylo stores your most important files in one secure location.
-          Access them wherever you need, share and collaborate with friends,
-          family, and co-workers.</p>
-        <form class="get-started-form" action="mailto:example@fylo.com">
-          <input class="box-shadow-1" type="email" name="email" placeholder="Enter your email..."
-            title="incorrect email format" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
-            aria-label="Email">
-          <input class="btn box-shadow-1" type="submit" value="Get Started">
-        </form>
+    <section class="home section ">
+      <div class="container container-lg text-center text-lg-left">
+        <img src="images/illustration-1.svg" alt="">
+        <div class="content">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.</p>
+          <form class="get-started-form" action="mailto:example@fylo.com">
+            <input class="box-shadow-1" type="email" name="email" placeholder="Enter your email..."
+              title="incorrect email format"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" aria-label="Email">
+            <input class="btn box-shadow-1" type="submit" value="Get Started">
+          </form>
+        </div>
       </div>
-
     </section>
     <!-- ==STAY PRODUCTIVE== -->
-    <section class="stay-productive section container container-lg">
-      <img src="images/illustration-2.svg" alt="">
-      <div class="content">
-        <h3 class="text-center text-lg-left">Stay productive, wherever you are</h3>
-        <p>
-          Never let location be an issue when accessing your files. Fylo has you
-          covered for all of your file storage needs.
-        </p>
-        <p>
-          Securely share files and folders with friends, family and colleagues for
-          live collaboration. No email attachments required!
-        </p>
-
-        <div class="how-it-works text-center text-lg-left">
-          <a href="">See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
-        </div>
-
-        <article class="testimony-card box-shadow-1">
-          <h4 class="sr-only">Testimonial</h4>
+    <section class="stay-productive section">
+      <div class=" container container-lg">
+        <img src="images/illustration-2.svg" alt="">
+        <div class="content">
+          <h3 class="text-center text-lg-left">Stay productive, wherever you are</h3>
           <p>
-            Fylo has improved our team productivity by an order of magnitude. Since
-            making the switch our team has become a well-oiled collaboration machine.
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
           </p>
-          <div class="testimony-card-user">
-            <img src="images/avatar-testimonial.jpg" alt="">
-            <p>Kyle Burton <small>Founder & CEO, Huddle</small></p>
+          <p>
+            Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+
+          <div class="how-it-works text-center text-lg-left">
+            <a href="">See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
           </div>
-        </article>
+
+          <article class="testimony-card box-shadow-1">
+            <p>
+              Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="testimony-card-user">
+              <img src="images/avatar-testimonial.jpg" alt="">
+              <p>Kyle Burton <small>Founder & CEO, Huddle</small></p>
+            </div>
+          </article>
+        </div>
       </div>
+
     </section>
     <!-- ==Early access== -->
-    <section class="early-access section container container-lg text-center text-lg-left">
-      <div class="content">
-        <h3>
-          Get early access today
-        </h3>
-        <p>
-          It only takes a minute to sign up and our free starter tier is extremely generous.
-          If you have any questions, our support team would be happy to help you.
-        </p>
+    <section class="early-access section">
+      <div class="container container-lg text-center text-lg-left">
+        <div class="content">
+          <h3>
+            Get early access today
+          </h3>
+          <p>
+            It only takes a minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.
+          </p>
+        </div>
+        <form class="get-started-form" action="mailto:example@fylo.com">
+          <input class="box-shadow-1" type="email" name="email" placeholder="email@example.com"
+            title="incorrect email format" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            aria-label="Email">
+          <input class="btn box-shadow-1" type="submit" value="Get Started For Free">
+        </form>
       </div>
-      <form class="get-started-form" action="mailto:example@fylo.com">
-        <input class="box-shadow-1" type="email" name="email" placeholder="email@example.com"
-          title="incorrect email format" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
-          aria-label="Email">
-        <input class="btn box-shadow-1" type="submit" value="Get Started For Free">
-      </form>
     </section>
   </main>
   <footer class="footer">
@@ -130,7 +134,7 @@
           <a href="mailto:example@fylo.com">example@fylo.com</a>
         </div>
       </address>
-      <div class="more-about">
+      <nav class="more-about" aria-label="secondary">
         <ul>
           <li><a href="">About Us</a></li>
           <li><a href="">Jobs</a></li>
@@ -142,8 +146,7 @@
           <li><a href="">Terms</a></li>
           <li><a href="">Privacy</a></li>
         </ul>
-      </div>
-
+      </nav>
       <ul class="social-media">
         <li>
           <a class="link-social" href="" aria-label="facebook">
