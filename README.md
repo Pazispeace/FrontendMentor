@@ -79,7 +79,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-landing-page-with-two-column-layout-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/fylo-landing-page-with-two-column-layout-master)
 
-  - [Huddle landing page with curved sections challenge]()
+  - [Huddle landing page with curved sections challenge](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-curved-sections-r1A9aXqU5)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-curved-sections-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/huddle-landing-page-with-curved-sections-master)
