@@ -13,7 +13,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Links
 
-- Solution URL: [Solution to Fylo landing page with two column layout solution challenge on Frontend Mentor]()
+- Solution URL: [Solution to Fylo landing page with two column layout solution challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-fylo-landing-page-with-two-column-layout-BJPA8uOU5)
 - Live Site URL: [Solution to Fylo landing page with two column layout solution challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/fylo-landing-page-with-two-column-layout-master)
 
 ### Built with
