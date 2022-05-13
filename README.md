@@ -86,8 +86,8 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
 
 - [Chat app CSS illustration challenge]()
 
-- [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/chat-app-css-illustration-master)
-- [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/chat-app-css-illustration-master)
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/chat-app-css-illustration-master)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/chat-app-css-illustration-master)
 
 ## Author
 
