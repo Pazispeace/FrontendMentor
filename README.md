@@ -89,6 +89,11 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/chat-app-css-illustration-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/chat-app-css-illustration-master)
 
+- [Product preview card component challenge]()
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/product-preview-card-component)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/product-preview-card-component)
+
 ## Author
 
 - Github - [Pazispeace](https://github.com/Pazispeace)
