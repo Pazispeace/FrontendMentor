@@ -84,12 +84,12 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/huddle-landing-page-with-curved-sections-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/huddle-landing-page-with-curved-sections-master)
 
-- [Chat app CSS illustration challenge]()
+- [Chat app CSS illustration challenge](https://www.frontendmentor.io/solutions/responsive-chat-app-css-illustrationg-Hy0KvFiU9)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/chat-app-css-illustration-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/chat-app-css-illustration-master)
 
-- [Product preview card component challenge]()
+- [Product preview card component challenge](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-L1QMIsZEOu)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/product-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/product-preview-card-component)

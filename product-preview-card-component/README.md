@@ -13,7 +13,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Solution to Product preview card component solution challenge on Frontend Mentor]()
+- Solution URL: [Solution to Product preview card component solution challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-L1QMIsZEOu)
 - Live Site URL: [Solution to Product preview card component solution challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/product-preview-card-component)
 
 ### Built with
