@@ -173,6 +173,7 @@ h1 {
   font-family: var(--font-headings);
   color: var(--Very-dark-blue);
   letter-spacing: 1px;
+  line-height: 1;
 }
 
 .price {
