@@ -136,10 +136,6 @@ p {
   border-radius: 0.7rem;
 }
 
-.card>img {
-  border-radius: 0.7rem 0.7rem 0 0;
-}
-
 .card-content {
   padding: 1.5rem;
 }
@@ -194,12 +190,22 @@ h1 {
   text-decoration: line-through;
 }
 
+.product-img {
+  background-image: url(images/image-product-mobile.jpg);
+  border-radius: 0.7rem 0.7rem 0 0;
+  min-height: 16.0625rem;
+  background-size: cover;
+}
+
 .section {
   background-color: var(--Primary--second-color);
   height: 100vh;
 }
 
 @media screen and (min-width: 64em) {
+
+
+
   .card {
     display: flex;
     justify-content: center;
@@ -207,9 +213,12 @@ h1 {
     max-width: 36.5rem;
   }
 
-  .card>img {
-    max-width: 50%;
+  .product-img {
+    background-image: url(images/image-product-desktop.jpg);
     border-radius: 0.7rem 0 0 0.7rem;
+    min-height: 27.5rem;
+    min-width: 50%;
+    background-size: cover;
   }
 
   .section {
