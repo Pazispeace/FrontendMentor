@@ -1,0 +1,257 @@
+/* ********** Custom Properties ********** */
+:root {
+  /* primary */
+  --primary-color: #fb7413;
+  /* Neutral */
+  --white: #ffffff;
+  --light-grey: #959eac;
+  --light-alpha-grey: #959eac8d;
+  --medium-grey: #7c8798;
+  --dark-blue: #202731;
+  --dark-alpha-blue: #262d37;
+  --very-dark-blue: #121417;
+  --font-primary: 'Overpass',
+    sans-serif;
+  --regular: 400;
+  --bold: 700;
+  --text-size: 0.9375rem;
+  --text-color: #0f161b;
+  --link-color: #b133ad;
+  --max-mobile-width: 27rem;
+  --max-lg-width: 50%;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-size: var(--text-size);
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Components ********** */
+
+/* ********** Utilities ********** */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-mobile-width);
+}
+
+.none {
+  display: none;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (min-width: 64em) {
+  .container-lg {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-lg-width);
+  }
+
+  .full-lg-screen {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-left {
+    text-align: left;
+  }
+
+  .text-lg-right {
+    text-align: right;
+  }
+}
+
+/* ********** Site Styles ********** */
+
+main {
+  background-color: var(--very-dark-blue);
+}
+
+section.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+section.form h3 {
+  color: var(--white);
+}
+
+.rating-form,
+.form-response {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: var(--dark-blue);
+  color: var(--light-grey);
+  border-radius: 1rem;
+}
+
+
+.rating-form>img,
+.form-response>img {
+  align-self: start;
+  padding: 0.8rem;
+  background-color: var(--dark-alpha-blue);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.form-response>img {
+  align-self: center;
+  background-color: initial;
+  border-radius: initial;
+}
+
+.form-response>p:first-of-type {
+  align-self: center;
+  max-width: 70%;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  color: var(--primary-color);
+  background-color: #262d37;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.5rem;
+}
+
+.rating-button {
+  display: grid;
+  place-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  background-color: var(--dark-alpha-blue);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rating-button:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.submit-rating {
+  align-self: center;
+  width: 90%;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  font-family: var(--font-primary);
+  font-weight: var(--bold);
+  letter-spacing: 1.8px;
+  color: var(--white);
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-rating:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.rating-button.active {
+  transition: all 0.3s ease;
+  background-color: var(--medium-grey);
+  color: var(--white);
+}
+
+.form-response.none {
+  display: none;
+}
+
+.rating-form.none {
+  display: none;
+
+}
