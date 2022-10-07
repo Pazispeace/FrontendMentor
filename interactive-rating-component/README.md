@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution to Single price grid component challenge on Frontend Mentor]()
+- Solution URL: [Solution to Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-QbR8sLBOhM)
 - Live Site URL: [Solution to Single price grid component challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/interactive-rating-component)
 
 ### Built with
