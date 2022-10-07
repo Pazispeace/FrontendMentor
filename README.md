@@ -94,7 +94,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/product-preview-card-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/product-preview-card-component)
 
-- [Interactive rating component - Challenge](https://www.frontendmentor.io/solutions/interactive-rating-component-QbR8sLBOhM)
+- [Interactive rating component Challenge](https://www.frontendmentor.io/solutions/interactive-rating-component-QbR8sLBOhM)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/interactive-rating-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/interactive-rating-component)
