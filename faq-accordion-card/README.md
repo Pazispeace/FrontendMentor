@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution to FAQ accordion card challenge on Frontend Mentor]()
+- Solution URL: [Solution to FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-m_ZherbTvc)
 - Live Site URL: [Solution to FAQ accordion card challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/faq-accordion-card)
 
 ### Built with

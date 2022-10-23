@@ -100,7 +100,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/interactive-rating-component)
   -
 
-- [FAQ accordion card Challenge]()
+- [FAQ accordion card Challenge](https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-m_ZherbTvc)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/faq-accordion-card)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/faq-accordion-card)
