@@ -1,0 +1,283 @@
+/* ********** Custom Properties ********** */
+:root {
+  /* primary */
+  --white: #ffffff;
+  /* divider */
+  --divider-light-grayish-blue: #e7e7e9;
+  /* background gradient */
+  --gradient-first-color: #af67e9;
+  --gradient-second-color: #6565e7;
+  /* TEXT */
+  --font-primary: 'Kumbh Sans', sans-serif;
+  --regular: 400;
+  --bold: 700;
+  --text-size: 0.75rem;
+
+  --very-dark-grayish-blue: #4a4b5e;
+  --very-dark-desaturated-blue: #1d1e35;
+  --dark-grayish-blue: #787887;
+  --soft-red: #f47c57;
+
+  --max-mobile-width: 27rem;
+  --max-lg-width: 64rem;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-size: var(--text-size);
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Components ********** */
+
+/* ********** Utilities ********** */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-mobile-width);
+}
+
+.none {
+  display: none;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (min-width: 64em) {
+  .container-lg {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-lg-width);
+  }
+
+  .full-lg-screen {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-left {
+    text-align: left;
+  }
+
+  .text-lg-right {
+    text-align: right;
+  }
+}
+
+/* ********** Site Styles ********** */
+
+.accordion {
+  position: relative;
+  background-color: var(--white);
+  padding: 10rem 1rem 1rem 1rem;
+  border-radius: 2rem;
+}
+
+.accordion details {
+  border-bottom: thin solid var(--divider-light-grayish-blue);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--dark-grayish-blue);
+}
+
+details summary {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details:hover summary {
+  color: var(--soft-red);
+  transition: all 0.3s ease;
+}
+
+details summary::after {
+  content: url(images/icon-arrow-down.svg);
+  transition: all 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: scale(-100%);
+}
+
+
+details[open] summary {
+  color: var(--very-dark-desaturated-blue);
+  font-weight: var(--bold);
+
+}
+
+.faq {
+  position: relative;
+}
+
+
+.faq::before {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  min-width: 18rem;
+  min-height: 18rem;
+  content: url(/images/illustration-woman-online-mobile.svg);
+}
+
+.faq::after {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -5%) scale(90%);
+  content: url(/images/bg-pattern-mobile.svg)
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: var(--very-dark-desaturated-blue);
+  font-size: 2.3rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(var(--gradient-first-color) 40%, var(--gradient-second-color));
+}
+
+@media screen and (min-width: 64em) {
+
+  .accordion {
+    padding: 3rem 3rem 3rem 35rem;
+    overflow: hidden;
+  }
+
+  .accordion details {
+    padding-left: 0;
+  }
+
+  .accordion::before {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-20%, 0%) scale(90%);
+    content: url(/images/illustration-woman-online-desktop.svg);
+  }
+
+  .accordion::after {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-53%, -36%) scale(78%);
+    content: url(/images/bg-pattern-desktop.svg)
+  }
+
+
+  .faq:before {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    transform: translate(-44.5%, 60%) scale(78%);
+    content: url(/images/illustration-box-desktop.svg)
+  }
+
+  .faq::after {
+    content: none;
+  }
+
+
+}

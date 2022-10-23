@@ -4,11 +4,13 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Frontend Mentor - Interactive rating component solution](#frontend-mentor---interactive-rating-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
