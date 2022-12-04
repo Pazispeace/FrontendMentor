@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution to Base Apparel coming soon page on Frontend Mentor]()
+- Solution URL: [Solution to Base Apparel coming soon page on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-base-apparel-coming-soon-page-thCLp2Yuen)
 - Live Site URL: [Solution to Base Apparel coming soon page challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/base-apparel-coming-soon-master)
 
 ### Built with

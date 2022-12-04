@@ -104,7 +104,7 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/faq-accordion-card)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/faq-accordion-card)
 
-- [Base Apparel coming soon page]()
+- [Base Apparel coming soon page](https://www.frontendmentor.io/solutions/responsive-base-apparel-coming-soon-page-thCLp2Yuen)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/base-apparel-coming-soon-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/base-apparel-coming-soon-master)
