@@ -98,12 +98,16 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/interactive-rating-component)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/interactive-rating-component)
-  -
 
 - [FAQ accordion card Challenge](https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-m_ZherbTvc)
 
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/faq-accordion-card)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/faq-accordion-card)
+
+- [Base Apparel coming soon page]()
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/base-apparel-coming-soon-master)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/base-apparel-coming-soon-master)
 
 ## Author
 
