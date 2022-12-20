@@ -153,11 +153,16 @@ p {
 /* button switch start */
 
 .theme-switch {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
   appearance: none;
   border: none;
   background-color: transparent;
   cursor: default;
+  font-family: var(--font-primary);
   font-size: 1rem;
+  font-weight: var(--regular);
 }
 
 .theme-switch * {
