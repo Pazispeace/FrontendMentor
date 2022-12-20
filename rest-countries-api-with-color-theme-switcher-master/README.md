@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution REST Countries API with color theme switcher on Frontend Mentor]()
+- Solution URL: [Solution REST Countries API with color theme switcher on Frontend Mentor](https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-GMbukyfRpG)
 - Live Site URL: [Solution REST Countries API with color theme switcher challenge live](https://Pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master)
 
 ### Built with
