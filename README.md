@@ -109,6 +109,11 @@ Repository of challenges solved by @Pazispeace from FrontEndMentor.io
   - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/base-apparel-coming-soon-master)
   - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/base-apparel-coming-soon-master)
 
+- [REST Countries API with color theme switcher page]()
+
+  - [Website Preview Solution](https://Pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master)
+  - [View code solution](https://github.com/Pazispeace/FrontendMentor-Challenges/tree/gh-pages/rest-countries-api-with-color-theme-switcher-master)
+
 ## Author
 
 - Github - [Pazispeace](https://github.com/Pazispeace)

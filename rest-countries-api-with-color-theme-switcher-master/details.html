@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="This is a solution to REST Countries API with color theme switcher challenge">
+
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://Pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master/images/favicon.png">
+  <link rel="apple-touch-icon"
+    href="https://Pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master/images/favicon.png">
+  <meta name="theme-color" content="#202d37">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:type" content="website">
+  <meta property="og:title" name="twitter:title"
+    content="This is a solution to REST Countries API with color theme switcher challenge">
+  <meta property="og:description" name="twitter:description"
+    content="This is a solution to REST Countries API with color theme switcher challenge">
+  <meta property="og:image" name="twitter:image"
+    content="https://Pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master/design/desktop-preview.jpg">
+  <meta property="og:url" name="twitter:url"
+    content="https://Pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Countries of the world</title>
+
+</head>
+
+<body data-dark>
+  <div class="loader-background" data-dark>
+    <div class="preloader" data-dark>
+    </div>
+  </div>
+  <header data-dark>
+    <h1>Where in the world?</h1>
+    <button class="theme-switch">Dark Mode</button>
+  </header>
+  <main class="container container-lg" data-dark>
+    <a href="index.html" class="back-btn">⬅️ Back</a>
+    <section class="section details">
+      <img src="" alt="">
+      <h1 class="country-name"></h1>
+      <article class="details-info">
+        <ul>
+          <li class="native-name"></li>
+          <li class="population"></li>
+          <li class="region"></li>
+          <li class="sub-region"></li>
+          <li class="capital"></li>
+        </ul>
+        <ul>
+          <li class="top-domain"></li>
+          <li class="currencies"></li>
+          <li class="languages"></li>
+        </ul>
+        <div class="borders-container">
+          <b></b>
+          <div class="borders" data-dark="">
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+  <script src="modules/details.js" type="module"></script>
+</body>
+
+</html>
