@@ -45,9 +45,10 @@
     <button class="theme-switch"></button>
   </header>
   <div class="search-fields container container-lg" data-dark>
-    <input type="text" class="search-filter" placeholder="Search for a country...">
 
-    <div class="region-filter">
+    <input role="searchbox" type="text" class="search-filter" placeholder="Search for a country...">
+
+    <nav class="region-filter">
       <div class="dropdown-title" data-status="closed">Filter by Region</div>
       <div class="dropdown-content none">
         <p>All regions</p>
@@ -58,7 +59,7 @@
         <p>Oceania</p>
       </div>
 
-    </div>
+    </nav>
 
     <!--  <select class="region-filter">
       <option value="all" class="margin-button">Filter by Region</option>
